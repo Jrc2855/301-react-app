@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import Container from 'react-bootstrap/Container'
+import Header from './Header.js';
+import Footer from './Footer.js'
+import Main from './Main.js'
+import beastObj from './data.json'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container>
+      <Header title = '301 Horned Beasts'/>
+      <Main message='These are the Beasts' beastObj={beastObj} />
+      <Footer text = 'Footer'/>
+    </Container>
   );
 }
+
 
 export default App;
