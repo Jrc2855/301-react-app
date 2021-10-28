@@ -106,3 +106,15 @@ Start Time: ______
 Finish Time: _____
 
 Actual time needed to complete: ____________
+
+## Feature 4 Display a Modal
+
+Number and name of Feature: Feature 4 Display a Modal
+
+Estimate of time needed to complete: 1-3 hours
+
+Start Time: 4:00 PM
+
+Finish Time: _____
+
+Actual time needed to complete: ____________
